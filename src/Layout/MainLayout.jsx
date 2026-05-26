@@ -42,7 +42,7 @@ export default function MainLayout({ children }) {
 
                     <h1
                         style={{
-                            fontSize: 28,
+                            fontSize: 22,
                             marginBottom: 5
                         }}
                     >
@@ -203,9 +203,9 @@ export default function MainLayout({ children }) {
 }
 
 const sidebarStyle = {
-    width: 260,
+    width: 220,
     background: "#111827",
-    padding: 25,
+    padding: 18,
     display: "flex",
     flexDirection: "column",
     position: "fixed",
@@ -214,14 +214,15 @@ const sidebarStyle = {
     transition: "0.3s",
     zIndex: 1000
 }
-
 const linkStyle = {
     color: "white",
     textDecoration: "none",
-    background: "#1f2937",
-    padding: 15,
-    borderRadius: 12,
-    fontWeight: "bold"
+    background: "#1e293b",
+    padding: 12,
+    borderRadius: 10,
+    fontWeight: "600",
+    fontSize: 14,
+    transition: "0.2s"
 }
 
 const mobileButton = {
